@@ -103,8 +103,7 @@ As an output you would expect in this case:
  |   ["b", "B"],           |                        |
  |   ["c", "C"] ]          |  [ "a", "A", "B", "b", "c", "C" ]    |
  | 
- | [ ["Stefan", "Raj",    "Marie"],
+ | [ ["Stefan", "Raj",    "Marie"],  | ["Stefan", "Raj", "Marie", "Edward", "Amy", "Alexa", "Liz", "Claire", "Juan", "Katie", "Luke", "Dee"]
   ["Alexa",  "Amy",    "Edward"],
   ["Liz",    "Claire", "Juan"],
   ["Dee",    "Luke",   "Katie"] ]   | 
-["Stefan", "Raj", "Marie", "Edward", "Amy", "Alexa", "Liz", "Claire", "Juan", "Katie", "Luke", "Dee"]
