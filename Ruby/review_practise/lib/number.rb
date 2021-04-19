@@ -1,5 +1,3 @@
-
-
 def number(list)
   positions = []
   list.each_with_index { |string, index| 

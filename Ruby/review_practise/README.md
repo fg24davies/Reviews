@@ -60,7 +60,7 @@ number ["a", "b", "c"] # => ["1: a", "2: b", "3: c"]
  |  []                |          []       |
  |      ["a"]         |        ["1:a"]    |
  |    ["a", "b"]      | ["1: a", "2: b"]  |          
- |    ["a", "b", "c"] | ["1: a", "2: b", "3: c"]    |          |                    |                   |
+ |    ["a", "b", "c"] | ["1: a", "2: b", "3: c"]    |    
 
 
  #### Reflection:
@@ -68,3 +68,36 @@ number ["a", "b", "c"] # => ["1: a", "2: b", "3: c"]
 - need to practise on ruby methods, feel like they've been lost a bit
 - happy that I did commit after each test, next time will refactor during the process
 - took about 25 mins not 20
+
+
+### April 19th: 7kyu, Ruby, 20mins 
+
+Create a function binRota that accepts a 2D array of names. The function will return a single array containing staff names in the order that they should empty the bin.
+
+Adding to the problem, the office has some temporary staff. This means that the seating plan changes every month. Both staff members' names and the number of rows of seats may change. Ensure that the function binRota works when tested with these changes.
+
+Notes:
+
+- All the rows will always be the same length as each other.
+- There will be no empty spaces in the seating plan.
+- There will be no empty arrays.
+- Each row will be at least one seat long.
+
+An example seating plan as an array:
+
+[ ["Stefan", "Raj",    "Marie"],
+  ["Alexa",  "Amy",    "Edward"],
+  ["Liz",    "Claire", "Juan"],
+  ["Dee",    "Luke",   "Katie"] ]
+
+The rota should start with Stefan and end with Dee, taking the left-right zigzag path. Stefan -> Marie -> Edward -> Alexa -> Liz etc
+
+As an output you would expect in this case:
+
+["Stefan", "Raj", "Marie", "Edward", "Amy", "Alexa", "Liz", "Claire", "Juan", "Katie", "Luke", "Dee"])
+
+ |       Input             |       Output           |
+ |-------------------------|------------------------|
+ |  [ ["a"], ["b"], ["c"] ] |  [ "a", "b", "c" ]    |
+| [ ["a", "A"], ["b", "B"], ["c", "C"] ] |  [ "a", "A", "B", "b", "c", "C" ]    |
+| 
