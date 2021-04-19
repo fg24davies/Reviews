@@ -98,6 +98,13 @@ As an output you would expect in this case:
 
  |       Input             |       Output           |
  |-------------------------|------------------------|
- |  [ ["a"], ["b"], ["c"] ] |  [ "a", "b", "c" ]    |
-| [ ["a", "A"], ["b", "B"], ["c", "C"] ] |  [ "a", "A", "B", "b", "c", "C" ]    |
-| 
+ |  [ ["a"], ["b"], ["c"] ]|  [ "a", "b", "c" ]     |
+ | [ ["a", "A"],           |                        |
+ |   ["b", "B"],           |                        |
+ |   ["c", "C"] ]          |  [ "a", "A", "B", "b", "c", "C" ]    |
+ | 
+ | [ ["Stefan", "Raj",    "Marie"],
+  ["Alexa",  "Amy",    "Edward"],
+  ["Liz",    "Claire", "Juan"],
+  ["Dee",    "Luke",   "Katie"] ]   | 
+["Stefan", "Raj", "Marie", "Edward", "Amy", "Alexa", "Liz", "Claire", "Juan", "Katie", "Luke", "Dee"]
