@@ -2,20 +2,20 @@ const Guess = require("../src/guessClass.js");
 
 describe("Guessing", () => {
   let guesser = new Guess(10, 3);
-  test("it should start new game with a number and number of lives", () => {
+  test.skip("it should start new game with a number and number of lives", () => {
     expect(guesser.lives).toEqual(3);
     expect(guesser.number).toEqual(10);
   })
 
-  test("it should return true if correct number guessed ", () => {
+  test.skip("it should return true if correct number guessed ", () => {
     expect(guesser.guess(10)).toEqual(true);
   });
 
-  test("it should return false if the wrong number guessed", () => {
+  test.skip("it should return false if the wrong number guessed", () => {
     expect(guesser.guess(5)).toEqual(false);
   });
 
-  test("lives should go down by 1 if number guessed wrong", () => {
+  test.skip("lives should go down by 1 if number guessed wrong", () => {
     let guesser = new Guess(10, 3);
     guesser.guess(5);
     expect(guesser.lives).toEqual(2);

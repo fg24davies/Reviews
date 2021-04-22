@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619079047345" clover="3.2.0">
-  <project timestamp="1619079047345" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="14" coveredelements="14" complexity="0" loc="9" ncloc="9" packages="1" files="2" classes="2"/>
+<coverage generated="1619079693228" clover="3.2.0">
+  <project timestamp="1619079693229" name="All files">
+    <metrics statements="11" coveredstatements="7" conditionals="6" coveredconditionals="4" methods="3" coveredmethods="2" elements="20" coveredelements="13" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
     <file name="coffeeCalculator.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/coffeeCalculator.js">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="3" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
     </file>
     <file name="guessClass.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/guessClass.js">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
+      <metrics statements="7" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
       <line num="19" count="1" type="stmt"/>
     </file>
   </project>
