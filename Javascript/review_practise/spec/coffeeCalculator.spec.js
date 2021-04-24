@@ -30,5 +30,8 @@ describe("CoffeeCalculator", () => {
     expect(coffeeCalculator( ["CW"] )).toEqual(2);
   });
 
+  test("takes an array with 2 tasks both lowercase and returns 2", () => {
+    expect(coffeeCalculator([ "cat", "dog" ])).toEqual(2);
+  });
 
 });
