@@ -80,3 +80,9 @@ Each event can be downcase/lowercase, or uppercase. If it is downcase/lowercase 
 | [ "cat", "dog", "movie", "cw"] | "You need extra sleep" |
 | [ "MOVIE", "CAT" ]             | "You need extra sleep" |     |
 | [ "cat", "DOG"]                | 3                      |
+
+#### Reflection:
+
+- This took quite a long time - maybe 1 hour in total over a few days
+- I wrote more production code than necessary to pass the tests I think as that meant
+  some tests just passed straight away, potentially my tests are too broken down?
