@@ -1,10 +1,6 @@
 
 function coffeeCalculator(tasks) {
-  if (oneCoffeeTaskList(tasks) + twoCoffeeTaskList(tasks) <= 3) {
-    return oneCoffeeTaskList(tasks) + twoCoffeeTaskList(tasks);
-  } else {
-    return "You need extra sleep";
-  }
+  return (total(tasks) <= 3 ? total(tasks) : "You need extra sleep");
 };
 
 function oneCoffeeTaskList(array) {
@@ -27,6 +23,9 @@ function twoCoffeeTaskList(array) {
   return upperCaseCounter;
 }
 
+function total(tasks) {
+  return oneCoffeeTaskList(tasks) + twoCoffeeTaskList(tasks);
+}
 
 module.exports = coffeeCalculator;
 

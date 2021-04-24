@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619254353090" clover="3.2.0">
-  <project timestamp="1619254353090" name="All files">
-    <metrics statements="21" coveredstatements="17" conditionals="8" coveredconditionals="6" methods="7" coveredmethods="6" elements="36" coveredelements="29" complexity="0" loc="21" ncloc="21" packages="1" files="2" classes="2"/>
+<coverage generated="1619254623587" clover="3.2.0">
+  <project timestamp="1619254623587" name="All files">
+    <metrics statements="20" coveredstatements="16" conditionals="8" coveredconditionals="6" methods="8" coveredmethods="7" elements="36" coveredelements="29" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
     <file name="coffeeCalculator.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/coffeeCalculator.js">
-      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
-      <line num="3" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="4" count="9" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="11" count="19" type="stmt"/>
-      <line num="12" count="19" type="stmt"/>
-      <line num="13" count="24" type="cond" truecount="2" falsecount="0"/>
-      <line num="14" count="18" type="stmt"/>
-      <line num="17" count="19" type="stmt"/>
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+      <line num="4" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="19" type="stmt"/>
+      <line num="16" count="19" type="stmt"/>
+      <line num="17" count="24" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="18" type="stmt"/>
       <line num="21" count="19" type="stmt"/>
-      <line num="22" count="19" type="stmt"/>
-      <line num="23" count="24" type="cond" truecount="2" falsecount="0"/>
-      <line num="24" count="4" type="stmt"/>
-      <line num="27" count="19" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
+      <line num="25" count="19" type="stmt"/>
+      <line num="26" count="19" type="stmt"/>
+      <line num="27" count="24" type="cond" truecount="2" falsecount="0"/>
+      <line num="28" count="4" type="stmt"/>
+      <line num="31" count="19" type="stmt"/>
+      <line num="35" count="19" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
     </file>
     <file name="guessClass.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/guessClass.js">
       <metrics statements="7" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
