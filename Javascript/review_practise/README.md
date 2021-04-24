@@ -63,20 +63,20 @@ Other events can be present and it will be represent by arbitrary string, just i
 
 Each event can be downcase/lowercase, or uppercase. If it is downcase/lowercase you need 1 coffee by events and if it is uppercase you need 2 coffees.
 
-| Input                          | Output               |
-| ------------------------------ | -------------------- |
-| []                             | 0                    |
-| [ "cw" ]                       | 1                    |
-| [ "movie"]                     | 1                    |
-| [ "cat"]                       | 1                    |
-| [ "dog"]                       | 1                    |
-| [ "cw-more"]                   | 0                    |
-| [ "CW" ]                       | 2                    |
-| [ "DOG" ]                      | 2                    |
-| [ "CAT" ]                      | 2                    |
-| [ "MOVIE" ]                    | 2                    |
-| [ "cat", "dog "]               | 2                    |
-| [ "cat", "dog", "movie"]       | 3                    |
-| [ "cat", "dog", "movie", "cw"] | "You need more rest" |
-| [ "MOVIE", "CAT" ]             | 2                    |
-| [ "cat", "DOG"]                | 3                    |
+| Input                          | Output                 |
+| ------------------------------ | ---------------------- | --- |
+| []                             | 0                      |
+| [ "cw" ]                       | 1                      |
+| [ "movie"]                     | 1                      |
+| [ "cat"]                       | 1                      |
+| [ "dog"]                       | 1                      |
+| [ "cw-more"]                   | 0                      |
+| [ "CW" ]                       | 2                      |
+| [ "DOG" ]                      | 2                      |
+| [ "CAT" ]                      | 2                      |
+| [ "MOVIE" ]                    | 2                      |
+| [ "cat", "dog "]               | 2                      |
+| [ "cat", "dog", "movie"]       | 3                      |
+| [ "cat", "dog", "movie", "cw"] | "You need extra sleep" |
+| [ "MOVIE", "CAT" ]             | "You need extra sleep" |     |
+| [ "cat", "DOG"]                | 3                      |

@@ -1,36 +1,30 @@
 
 function coffeeCalculator(tasks) {
-  console.log(oneCoffeeTaskList(tasks));
-  return oneCoffeeTaskList(tasks);
-  // if (oneCoffeeTaskList(tasks)) {
-  //   return 1;
-  // } else if (twoCoffeeTaskList(tasks)) {
-  //   return 2;
-  // } else {
-  //   return 0;
-  // }
+  if (oneCoffeeTaskList(tasks) + twoCoffeeTaskList(tasks) <= 3) {
+    return oneCoffeeTaskList(tasks) + twoCoffeeTaskList(tasks);
+  } else {
+    return "You need extra sleep";
+  }
 };
 
-console.log(oneCoffeeTaskList(["cw", "cw"]))
-
 function oneCoffeeTaskList(array) {
-  let counter = 0;
+  let lowerCaseCounter = 0;
   array.forEach( (element) => {
     if ( [ 'cw', 'movie', 'cat', 'dog' ].includes(element) ) {
-      counter++;
-      //console.log(counter);
+      lowerCaseCounter++;
     }
-    //console.log(counter);
   });
-  return counter;
+  return lowerCaseCounter;
 }
 
 function twoCoffeeTaskList(array) {
-  if ([ 'CW', 'MOVIE', 'CAT', 'DOG' ].includes(array[0]) ) {
-    return true;
-  } else {
-    return false; 
-  }
+  let upperCaseCounter = 0;
+  array.forEach( (element) => {
+    if ( [ 'CW', 'MOVIE', 'CAT', 'DOG' ].includes(element) ) {
+      upperCaseCounter += 2;
+    }
+  });
+  return upperCaseCounter;
 }
 
 

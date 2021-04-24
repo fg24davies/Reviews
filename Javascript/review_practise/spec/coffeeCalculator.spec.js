@@ -34,4 +34,12 @@ describe("CoffeeCalculator", () => {
     expect(coffeeCalculator([ "cat", "dog" ])).toEqual(2);
   });
 
+  test("takes mixed uppercase lowercase array and calculates correct coffee number", () => {
+    expect(coffeeCalculator([ "cat", "DOG"] )).toEqual(3);
+  });
+
+  test("returns string if you coffee calculator is more than 3", () => {
+    expect(coffeeCalculator([ "cat", "dog", "movie", "cw"])).toEqual("You need extra sleep")
+  })
+
 });
