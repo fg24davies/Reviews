@@ -10,6 +10,14 @@ describe('Plant', () => {
     expect(plant( "!", "1", "1", "20")).toEqual("-!")
   });
 
+  test('it grows a 1 stem 2 flower at correct temp ', () => {
+    expect(plant("@", "1", "2", "20")).toEqual("-@@")
+  });
+
+  test('it grows a 2 stem 1 flower at correct temp ', () => {
+    expect(plant("@", "2", "1", "20")).toEqual("--@--@")
+  });
+
 });
 
 

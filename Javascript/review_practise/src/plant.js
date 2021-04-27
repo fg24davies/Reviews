@@ -1,6 +1,8 @@
 
 function plant(seed, water, fert, temp) {
-  return `-${seed}`;
+  const stem = "-";
+  flowerUnit = `${stem.repeat(water)}` +  `${seed.repeat(fert)}`;
+  return flowerUnit.repeat(water);
 }
 
 
