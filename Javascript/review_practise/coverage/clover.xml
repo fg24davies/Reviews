@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619542218702" clover="3.2.0">
-  <project timestamp="1619542218702" name="All files">
-    <metrics statements="24" coveredstatements="8" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="2" elements="41" coveredelements="10" complexity="0" loc="24" ncloc="24" packages="1" files="3" classes="3"/>
+<coverage generated="1619543038013" clover="3.2.0">
+  <project timestamp="1619543038013" name="All files">
+    <metrics statements="27" coveredstatements="11" conditionals="12" coveredconditionals="4" methods="10" coveredmethods="3" elements="49" coveredelements="18" complexity="0" loc="27" ncloc="27" packages="1" files="3" classes="3"/>
     <file name="coffeeCalculator.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/coffeeCalculator.js">
       <metrics statements="13" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -29,11 +29,14 @@
       <line num="19" count="1" type="stmt"/>
     </file>
     <file name="plant.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/plant.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="4" count="4" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="3" count="7" type="stmt"/>
+      <line num="4" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="14" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

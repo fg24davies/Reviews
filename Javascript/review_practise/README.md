@@ -102,11 +102,12 @@ fert (integer) - each unit of fertilizer increases the amount of flowers, groupe
 temp (integer) - if the temperature given is in the range of 20°C and 30°C, the plant grows normally, otherwise, all the flowers die except for one flower at the end of the stem.
 ```
 
-| Input               | Output     |
-| ------------------- | ---------- |
-| "@", "1", "1", "20" | "-@"       |
-| "!", "1", "1", "20" | "-!"       |
-| "@", "2", "1", "20" | "--@--@"   |
-| "@", "1", "2", "20" | "-@@"      |
-| "@", "2", "2", "20" | "--@@--@@" |
-| "@", "2", "2", "19" | "----@"    |
+| Input         | Output                     |
+| ------------- | -------------------------- |
+| "@", 1, 1, 20 | "-@"                       |
+| "!", 1, 1, 20 | "-!"                       |
+| "@", 2, 1, 20 | "--@--@"                   |
+| "@", 1, 2, 20 | "-@@"                      |
+| "@", 2, 2, 20 | "--@@--@@"                 |
+| "@", 2, 2, 19 | "----@"                    |
+| "$", 4, 2, 30 | "----$$----$$----$$----$$" |
