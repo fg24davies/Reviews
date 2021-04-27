@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619541376820" clover="3.2.0">
-  <project timestamp="1619541376820" name="All files">
+<coverage generated="1619541562985" clover="3.2.0">
+  <project timestamp="1619541562985" name="All files">
     <metrics statements="22" coveredstatements="6" conditionals="8" coveredconditionals="0" methods="9" coveredmethods="2" elements="39" coveredelements="8" complexity="0" loc="22" ncloc="22" packages="1" files="3" classes="3"/>
     <file name="coffeeCalculator.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/coffeeCalculator.js">
       <metrics statements="13" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
@@ -30,7 +30,7 @@
     </file>
     <file name="plant.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/plant.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
   </project>
