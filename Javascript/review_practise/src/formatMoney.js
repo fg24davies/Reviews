@@ -1,5 +1,6 @@
 function formatMoney(number) {
-  return "$1.99";
+
+  return `$${number}`;
 }
 
 module.exports = formatMoney;

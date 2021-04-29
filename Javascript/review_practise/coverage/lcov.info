@@ -43,9 +43,9 @@ SF:src/formatMoney.js
 FN:1,formatMoney
 FNF:1
 FNH:1
-FNDA:1,formatMoney
-DA:2,1
-DA:5,1
+FNDA:2,formatMoney
+DA:3,2
+DA:6,1
 LF:2
 LH:2
 BRF:0
