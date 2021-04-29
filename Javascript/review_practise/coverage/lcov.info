@@ -43,8 +43,8 @@ SF:src/formatMoney.js
 FN:1,formatMoney
 FNF:1
 FNH:1
-FNDA:2,formatMoney
-DA:3,2
+FNDA:5,formatMoney
+DA:3,5
 DA:6,1
 LF:2
 LH:2

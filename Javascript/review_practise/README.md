@@ -133,3 +133,4 @@ The rest of your team will make sure that the argument is sanitized before being
 | 12.99 | "$12.99" |
 | 3     | "$3.00"  |
 | 3.1   | "$3.10"  |
+| 0     | "$0.00"  |
