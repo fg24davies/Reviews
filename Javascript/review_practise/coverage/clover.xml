@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619543234123" clover="3.2.0">
-  <project timestamp="1619543234123" name="All files">
-    <metrics statements="28" coveredstatements="12" conditionals="12" coveredconditionals="4" methods="11" coveredmethods="4" elements="51" coveredelements="20" complexity="0" loc="28" ncloc="28" packages="1" files="3" classes="3"/>
+<coverage generated="1619684956662" clover="3.2.0">
+  <project timestamp="1619684956662" name="All files">
+    <metrics statements="30" coveredstatements="8" conditionals="12" coveredconditionals="0" methods="12" coveredmethods="2" elements="54" coveredelements="10" complexity="0" loc="30" ncloc="30" packages="1" files="4" classes="4"/>
     <file name="coffeeCalculator.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/coffeeCalculator.js">
       <metrics statements="13" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -18,6 +18,11 @@
       <line num="27" count="0" type="stmt"/>
       <line num="30" count="1" type="stmt"/>
     </file>
+    <file name="formatMoney.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/formatMoney.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+    </file>
     <file name="guessClass.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/guessClass.js">
       <metrics statements="7" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <line num="4" count="1" type="stmt"/>
@@ -29,15 +34,15 @@
       <line num="19" count="1" type="stmt"/>
     </file>
     <file name="plant.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/plant.js">
-      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <metrics statements="8" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="4" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="5" count="6" type="stmt"/>
-      <line num="6" count="6" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="14" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
+      <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
