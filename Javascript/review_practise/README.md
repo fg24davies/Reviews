@@ -84,7 +84,7 @@ Each event can be downcase/lowercase, or uppercase. If it is downcase/lowercase 
 - I wrote more production code than necessary to pass the tests I think as that meant
   some tests just passed straight away, potentially my tests are too broken down?
 
-#### April 27th: 7kyu, Javascript, Time taken:
+#### April 27th: 7kyu, Javascript, Time taken: 1 hour
 
 You have cultivated a plant, and after months of hard work, the time has come to reap the flowers of your hard work. When it was growing, you added water and fertilizer, and kept a constant temperature. It's time check how much your plant has grown.
 
@@ -111,3 +111,25 @@ temp (integer) - if the temperature given is in the range of 20°C and 30°C, th
 | "@", 2, 2, 20 | "--@@--@@"                 |
 | "@", 2, 2, 19 | "----@"                    |
 | "$", 4, 2, 30 | "----$$----$$----$$----$$" |
+
+#### April 29th: 8kyu, Javascript
+
+The company you work for has just been awarded a contract to build a payment gateway. In order to help move things along, you have volunteered to create a function that will take a float and return the amount formatting in dollars and cents.
+
+```
+39.99 becomes $39.99
+```
+
+The rest of your team will make sure that the argument is sanitized before being passed to your function although you will need to account for adding trailing zeros if they are missing (though you won't have to worry about a dangling period).
+
+```
+3 needs to become $3.00
+3.1 needs to become $3.10
+```
+
+| Input | Output   |
+| ----- | -------- |
+| 1.99  | "$1.99"  |
+| 12.99 | "$12.99" |
+| 3     | "$3.00"  |
+| 3.1   | "$3.10"  |
