@@ -112,7 +112,7 @@ temp (integer) - if the temperature given is in the range of 20°C and 30°C, th
 | "@", 2, 2, 19 | "----@"                    |
 | "$", 4, 2, 30 | "----$$----$$----$$----$$" |
 
-#### April 29th: 8kyu, Javascript
+#### April 29th: 8kyu, Javascript, time taken 10 mins
 
 The company you work for has just been awarded a contract to build a payment gateway. In order to help move things along, you have volunteered to create a function that will take a float and return the amount formatting in dollars and cents.
 
@@ -134,3 +134,29 @@ The rest of your team will make sure that the argument is sanitized before being
 | 3     | "$3.00"  |
 | 3.1   | "$3.10"  |
 | 0     | "$0.00"  |
+
+#### Reflection:
+
+- understood the idea more of not needing to know the all the methods and feeling more comfortable about researching these
+- committed well until the last test
+
+#### April 30th 7ku, Javascript, Time taken:
+
+Implement a function which takes a sequence of objects and a property name, and returns a sequence containing the named property of each object.
+
+For example:
+
+pluck([{a:1}, {a:2}], 'a') // -> [1,2]
+pluck([{a:1, b:3}, {a:2}], 'b') // -> [3, undefined]
+If an object is missing the property, you should just leave it as undefined/None in the output array.
+
+| Input                    | Output         |
+| ------------------------ | -------------- |
+| [{a:1}], 'a'             | [1]            |
+| [{a:2}], 'a'             | [2]            |
+| [{b:1}], 'b'             | [1]            |
+| [{a:2}], 'b'             | undefined      |
+| [{a:2}, {a:3}], 'a'      | [2,3]          |
+| [{a:1, b:3}, 'b'         | [3]            |
+| [{a:1, b:3}, {a:2}], 'a' | [1,2]          |
+| [{a:1, b:3}, {a:2}], 'b' | [3, undefined] |
