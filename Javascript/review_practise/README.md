@@ -155,7 +155,7 @@ If an object is missing the property, you should just leave it as undefined/None
 | [{a:1}], 'a'             | [1]            |
 | [{a:2}], 'a'             | [2]            |
 | [{b:1}], 'b'             | [1]            |
-| [{a:2}], 'b'             | undefined      |
+| [{a:2}], 'b'             | [undefined]    |
 | [{a:2}, {a:3}], 'a'      | [2,3]          |
 | [{a:1, b:3}, 'b'         | [3]            |
 | [{a:1, b:3}, {a:2}], 'a' | [1,2]          |
