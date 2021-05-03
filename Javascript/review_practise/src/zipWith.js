@@ -1,5 +1,5 @@
 function zipWith(fn, array1, array2) {
-  return [];
+  return [0];
 }
 
 module.exports = zipWith

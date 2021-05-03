@@ -5,8 +5,6 @@ describe('zipWith', () => {
     const add = function(a,b) {
       return a + b;
     }
-    expect(zipWith(add, [0], 0]).toEqual([0]);
-    ])
+    expect(zipWith(add, [0], [0])).toEqual([0]);
   });
-  
 });

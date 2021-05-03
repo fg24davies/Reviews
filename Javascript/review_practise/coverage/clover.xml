@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620056622251" clover="3.2.0">
-  <project timestamp="1620056622251" name="All files">
-    <metrics statements="34" coveredstatements="9" conditionals="12" coveredconditionals="0" methods="15" coveredmethods="1" elements="61" coveredelements="10" complexity="0" loc="34" ncloc="34" packages="1" files="6" classes="6"/>
+<coverage generated="1620056765075" clover="3.2.0">
+  <project timestamp="1620056765075" name="All files">
+    <metrics statements="34" coveredstatements="10" conditionals="12" coveredconditionals="0" methods="15" coveredmethods="2" elements="61" coveredelements="12" complexity="0" loc="34" ncloc="34" packages="1" files="6" classes="6"/>
     <file name="coffeeCalculator.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/coffeeCalculator.js">
       <metrics statements="13" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -50,8 +50,8 @@
       <line num="5" count="1" type="stmt"/>
     </file>
     <file name="zipWith.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/zipWith.js">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="2" count="0" type="stmt"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
     </file>
   </project>
