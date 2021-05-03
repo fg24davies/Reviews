@@ -1,6 +1,8 @@
 
 function pluck(objects, key) {
-  return [1];
+  outputArray = [];
+  outputArray.push(objects[0][key]);
+  return outputArray;
 }
 
 module.exports = pluck;
