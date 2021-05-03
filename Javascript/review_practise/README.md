@@ -140,7 +140,7 @@ The rest of your team will make sure that the argument is sanitized before being
 - understood the idea more of not needing to know the all the methods and feeling more comfortable about researching these
 - committed well until the last test
 
-#### April 30th 7ku, Javascript, Time taken:
+#### May 3rd 7ku, Javascript, Time taken: 30mins
 
 Implement a function which takes a sequence of objects and a property name, and returns a sequence containing the named property of each object.
 
@@ -157,6 +157,35 @@ If an object is missing the property, you should just leave it as undefined/None
 | [{b:1}], 'b'             | [1]            |
 | [{a:2}], 'b'             | [undefined]    |
 | [{a:2}, {a:3}], 'a'      | [2,3]          |
-| [{a:1, b:3}, 'b'         | [3]            |
+| [{a:1, b:3}], 'b'        | [3]            |
 | [{a:1, b:3}, {a:2}], 'a' | [1,2]          |
 | [{a:1, b:3}, {a:2}], 'b' | [3, undefined] |
+
+#### Reflections
+
+- Some of the tests pass straight away, this means that the tests are testing the same thing or combining statements that already work.
+  And that I am writing code that does than pass the test e.g. not hard coding the property name but using the parameter. I think this comes from when the logic is clearer.
+
+#### May 3rd 6ku, Javascript, Time taken:
+
+zipWith takes a function and two arrays and zips the arrays together, applying the function to every pair of values.
+The function value is one new array.
+
+If the arrays are of unequal length, the output will only be as long as the shorter one.
+(Values of the longer array are simply not used.)
+
+Examples
+zipWith( Math.pow, [10,10,10,10], [0,1,2,3] ) => [1,10,100,1000]
+zipWith( Math.max, [1,4,7,1,4,7], [4,7,1,4,7,1] ) => [4,7,7,4,7,7]
+
+zipWith( function(a,b) { return a+b; }, [0,1,2,3], [0,1,2,3] ) => [0,2,4,6] Both forms are valid.
+zipWith( (a,b) => a+b, [0,1,2,3], [0,1,2,3] ) => [0,2,4,6] Both are functions.
+
+| Input               | Output |
+| ------------------- | ------ |
+| (add, [0], [0])     | [0]    |
+| (add, [1], [0])     | [1]    |
+| (add, [1,2], [0,2]) | [1,4]  |
+| (add, [1,2], [2])   | [3]    |
+
+test input function to be const add = function(a,b) { return a+b; }
