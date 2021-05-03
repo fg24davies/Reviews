@@ -117,14 +117,14 @@ BRH:0
 end_of_record
 TN:
 SF:src/zipWith.js
-FN:1,zipWith
+FN:2,zipWith
 FNF:1
 FNH:1
 FNDA:2,zipWith
-DA:2,2
 DA:3,2
 DA:4,2
-DA:7,1
+DA:5,2
+DA:8,1
 LF:4
 LH:4
 BRF:0
