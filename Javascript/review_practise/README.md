@@ -163,10 +163,9 @@ If an object is missing the property, you should just leave it as undefined/None
 
 #### Reflections
 
-- Some of the tests pass straight away, this means that the tests are testing the same thing or combining statements that already work.
-  And that I am writing code that does than pass the test e.g. not hard coding the property name but using the parameter. I think this comes from when the logic is clearer.
+- Some of the tests pass straight away, this means that the tests are testing the same thing or combining statements that already work. And that I am writing code that does more than pass the one failing test e.g. not hard coding the property name but using the parameter. I think this comes from when the logic is clearer.
 
-#### May 3rd 6ku, Javascript, Time taken:
+#### May 3rd 6ku, Javascript, Time taken: 45 mins
 
 zipWith takes a function and two arrays and zips the arrays together, applying the function to every pair of values.
 The function value is one new array.
@@ -189,3 +188,29 @@ zipWith( (a,b) => a+b, [0,1,2,3], [0,1,2,3] ) => [0,2,4,6] Both are functions.
 | (add, [1,2], [2])   | [3]    |
 
 test input function to be const add = function(a,b) { return a+b; }
+
+#### Reflection
+
+- I think I would maybe need to mock the function parameter in the future because these tests would then fail if there was a fail with the function.
+
+### June 3rd, 7ku, Algorithms, Javascript, Time Taken:
+
+i is the imaginary unit, it is defined by `i² = -1`, therefore it is a solution to `x² + 1 = 0`
+Create a function pofi that returns i to the power of a given non-negative integer in its simplest form, as a string (answer may contain i).
+
+| Input   | Output |
+| ------- | ------ |
+| pofi(0) | "1"    |
+| pofi(1) | "i"    |
+| pofi(2) | "-1"   |
+| pofi(3) | "-i"   |
+| pofi(4) | "1"    |
+| pofi(5) | "i"    |
+
+edge case is 0 - anything to the power of 0 is one
+
+alternating odd numbers go from i to -i
+odd power that is divisible by 2 an odd number of times will be -i (eg 7 is divisible by 2, 3 times remainder 1)
+odd power that is divisible by 2 an even number of times will be i (eg 5 is divisible by 2, 4 times remainder 1)
+even number which is an even multiple of 2 eg 4,8,12 is 1 eg i^8 = i^(2x4) = 1
+even number which is an odd multpiple of 2 eg 2,6,10 is -1 eg i^6 = i^(2x3) = -1
