@@ -2,8 +2,6 @@ function pofi(n) {
   //edge case of 0
   if (n === 0) {
     return "1";
-  } else if (n === 1) {
-    return "i";
   }
 
   //even n
