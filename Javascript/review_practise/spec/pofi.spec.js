@@ -20,4 +20,12 @@ describe("power of i function", () => {
   test("i to the power 4", () => {
     expect(pofi(4)).toEqual("1");
   });
+
+  test("i to the power 5", () => {
+    expect(pofi(5)).toEqual("i");
+  });
+
+  test("i to the power 6", () => {
+    expect(pofi(6)).toEqual("-1");
+  });
 });
