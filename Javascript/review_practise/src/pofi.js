@@ -1,5 +1,7 @@
 function pofi(n) {
-  return "1";
+  if (n === 0) {
+    return "1";
+  } else return "i";
 }
 
 module.exports = pofi;
