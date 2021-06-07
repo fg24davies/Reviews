@@ -193,7 +193,7 @@ test input function to be const add = function(a,b) { return a+b; }
 
 - I think I would maybe need to mock the function parameter in the future because these tests would then fail if there was a fail with the function.
 
-### June 3rd, 7ku, Algorithms, Javascript, Time Taken:
+### June 3rd, 7ku, Algorithms, Javascript, Time Taken: 45mins total
 
 i is the imaginary unit, it is defined by `i² = -1`, therefore it is a solution to `x² + 1 = 0`
 Create a function pofi that returns i to the power of a given non-negative integer in its simplest form, as a string (answer may contain i).
@@ -214,3 +214,8 @@ odd power that is divisible by 2 an odd number of times will be -i (eg 7 is divi
 odd power that is divisible by 2 an even number of times will be i (eg 5 is divisible by 2, 4 times remainder 1)
 even number which is an even multiple of 2 eg 4,8,12 is 1 eg i^8 = i^(2x4) = 1
 even number which is an odd multpiple of 2 eg 2,6,10 is -1 eg i^6 = i^(2x3) = -1
+
+#### Reflection
+
+I was forgetting to commit as regularly as before. Refactored completely at the end.
+Bonus: found how to test one single test file which makes it a lot quicker!
