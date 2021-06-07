@@ -219,3 +219,16 @@ even number which is an odd multpiple of 2 eg 2,6,10 is -1 eg i^6 = i^(2x3) = -1
 
 I was forgetting to commit as regularly as before. Refactored completely at the end.
 Bonus: found how to test one single test file which makes it a lot quicker!
+
+### June 7th, 7kyu, Javascript, time taken:
+
+Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
+
+Don't change the order of the elements that are left.
+
+| Input           | Output       |
+| --------------- | ------------ |
+| []              | []           |
+| [1, 2, 3]       | [ 2, 3]      |
+| [2, 1, 2]       | [ 2, 2]      |
+| [2, 4, 1, 2, 1] | [2, 4, 2, 1] |
