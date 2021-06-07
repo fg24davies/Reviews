@@ -8,4 +8,8 @@ describe("remove smallest function", () => {
   test("returns an array with the smallest number removed", () => {
     expect(removeSmallest([1, 2, 3])).toEqual([2, 3]);
   });
+
+  test("returns an array with the smallest number at the lowest index removed", () => {
+    expect(removeSmallest([1, 2, 3, 1])).toEqual([2, 3, 1]);
+  });
 });
