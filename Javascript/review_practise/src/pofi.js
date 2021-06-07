@@ -1,9 +1,4 @@
 function pofi(n) {
-  //edge case of 0
-  if (n === 0) {
-    return "1";
-  }
-
   //even n
   if (n % 2 === 0) {
     if ((n / 2) % 2 === 0) {
