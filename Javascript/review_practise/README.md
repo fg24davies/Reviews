@@ -238,7 +238,7 @@ Don't change the order of the elements that are left.
 Committing was better (clearer messages and more often)
 Used MDN/Stack for learning about JS inbuilt functions
 
-#### June 8th, 6kyu, Javascript, Time taken:
+#### June 8th, 6kyu, Javascript, Time taken: 1 hour
 
 Write a function that will take in any array and reverse it.
 NOTES:
@@ -255,3 +255,11 @@ You'll have to do it fast enough, so think about performances
 If array.length is odd, middle number will stay the same
 If array.length is even, all numbers switch
 Need a temporary space to hold the value you are swapping out
+
+### Reflection
+
+This not was approached as TDD. I felt like I wanted to figure out the maths and the logic before I started coding so I had my algorithm in mind before I wrote any test.
+
+I didn't write enough tests at first to check my algorithm so when I submitted on CodeWars it failed. This showed me the real benefit of TDD.
+
+Positives: I wrote my first performance time test
