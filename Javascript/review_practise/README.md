@@ -220,7 +220,7 @@ even number which is an odd multpiple of 2 eg 2,6,10 is -1 eg i^6 = i^(2x3) = -1
 I was forgetting to commit as regularly as before. Refactored completely at the end.
 Bonus: found how to test one single test file which makes it a lot quicker!
 
-### June 7th, 7kyu, Javascript, time taken:
+### June 7th, 7kyu, Javascript, time taken: 35 mins
 
 Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with a lower index. If you get an empty array/list, return an empty array/list.
 
@@ -232,3 +232,26 @@ Don't change the order of the elements that are left.
 | [1, 2, 3]       | [ 2, 3]      |
 | [2, 1, 2]       | [ 2, 2]      |
 | [2, 4, 1, 2, 1] | [2, 4, 2, 1] |
+
+### Reflection
+
+Committing was better (clearer messages and more often)
+Used MDN/Stack for learning about JS inbuilt functions
+
+#### June 8th, 6kyu, Javascript, Time taken:
+
+Write a function that will take in any array and reverse it.
+NOTES:
+Array should be reversed in place! (no need to return it)
+Usual built-ins have been deactivated. Don't count on them.
+You'll have to do it fast enough, so think about performances
+
+| Input        | Output        |
+| ------------ | ------------- |
+| [2, 3]       | [3, 2]        |
+| [1, 2, 3]    | [3, 2, 1]     |
+| [9, 6, 1, 8] | [8, 1, 6, 9 ] |
+
+If array.length is odd, middle number will stay the same
+If array.length is even, all numbers switch
+Need a temporary space to hold the value you are swapping out
