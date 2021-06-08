@@ -1,9 +1,17 @@
-const performance = require("perf_hooks").performance;
-
 function reverseArray(array) {
   let endIndex = array.length - 1;
+  //let startIndex = 0;
 
-  for (let i = 0; i < endIndex; i++) {
+  // while (startIndex < endIndex) {
+  //   let temp = array[startIndex];
+  //   array[startIndex] = array[endIndex];
+  //   array[endIndex] = temp;
+  //   startIndex++;
+  //   endIndex--;
+  //   console.log(array);
+  // }
+
+  for (let i = 0; i < array.length / 2; i++) {
     let temp = array[i];
     array[i] = array[endIndex - i];
     array[endIndex - i] = temp;

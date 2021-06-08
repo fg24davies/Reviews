@@ -5,7 +5,7 @@ describe("reverseArray", () => {
     expect(reverseArray([2, 3])).toEqual([3, 2]);
   });
 
-  test("reverses a 6element array in less than 1ms", () => {
+  test("reverses a 6element array in less than 5ms", () => {
     function timer(reverseArray, array) {
       let start = performance.now();
       reverseArray(array);
@@ -13,6 +13,17 @@ describe("reverseArray", () => {
     }
     timer(reverseArray, [1, 2, 3, 4, 5, 6]);
     console.log(timeTaken);
-    expect(timeTaken).toBeLessThan(0.5);
+    expect(timeTaken).toBeLessThan(5);
+  });
+
+  test("reverses string array", () => {
+    expect(reverseArray(["hello", "world", "how", "are", "you", "?"])).toEqual([
+      "?",
+      "you",
+      "are",
+      "how",
+      "world",
+      "hello",
+    ]);
   });
 });
