@@ -7,7 +7,7 @@ describe("boulesScore", () => {
         { type: "red", distance: [85, 0] },
         { type: "jack", distance: [80, 0] },
       ])
-    ).toEqual("Red scores 1");
+    ).toEqual("red scores 1");
   });
 
   test("black scores if only one black ball thrown and jack", () => {
@@ -16,6 +16,6 @@ describe("boulesScore", () => {
         { type: "black", distance: [85, 0] },
         { type: "jack", distance: [80, 0] },
       ])
-    ).toEqual("Black scores 1");
+    ).toEqual("black scores 1");
   });
 });
