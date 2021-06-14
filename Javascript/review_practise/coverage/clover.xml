@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1623153839189" clover="3.2.0">
-  <project timestamp="1623153839189" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="9" coveredelements="9" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
-    <file name="reverseArray.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/reverseArray.js">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="3" type="stmt"/>
-      <line num="14" count="3" type="stmt"/>
-      <line num="15" count="7" type="stmt"/>
-      <line num="16" count="7" type="stmt"/>
-      <line num="17" count="7" type="stmt"/>
-      <line num="18" count="7" type="stmt"/>
-      <line num="20" count="3" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
+<coverage generated="1623666768551" clover="3.2.0">
+  <project timestamp="1623666768551" name="All files">
+    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="1" files="1" classes="1"/>
+    <file name="boulesScore.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/boulesScore.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

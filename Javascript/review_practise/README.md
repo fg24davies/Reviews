@@ -263,3 +263,17 @@ This not was approached as TDD. I felt like I wanted to figure out the maths and
 I didn't write enough tests at first to check my algorithm so when I submitted on CodeWars it failed. This showed me the real benefit of TDD.
 
 Positives: I wrote my first performance time test
+
+#### June 14th, 6kyu, Javascript, Time taken: 1 hour
+
+Implement a function that will return a message indicating the winner of the round. If there's no winner, return the string "No points scored".
+
+It takes an `array of balls` that are objects. Each ball has 2 properties: type and distance.
+
+The type will be "red", "black", or "jack". For all test cases, the jack will be the last element on the balls array. The distance property will be an array with two integer values. The first value is the distance thrown forward, the second value is the distance thrown left or right (negative values indicate distance to the left). For the purposes of this Kata, all balls are thrown from the same initial point.
+
+| Input                                                                                                            | Output             |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [ { type: "black", distance: [70, 0]}, { type: "red", distance: [85, 0]}, { type: "jack", distance: [80, 0]}]    | "red scores 1"     |
+| [ { type: "black", distance: [70, -1]}, { type: "red", distance: [85, -1]},{ type: "jack", distance: [80, -5]} ] | "red scores 1"     |
+| [ { type: "black", distance: [70, 0]}, { type: "red", distance: [90, 0]},{ type: "jack", distance: [80, 0]} ]    | "No points scored" |
