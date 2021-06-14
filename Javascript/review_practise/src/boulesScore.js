@@ -1,14 +1,20 @@
 function boulesScore(balls) {
-  let jackXPosition = balls[balls.length - 1].distance[0];
-  let jackYPosition = balls[balls.length - 1].distance[1];
+  const jackXPosition = balls[balls.length - 1].distance[0];
+  const jackYPosition = balls[balls.length - 1].distance[1];
   let redDistances = [];
   let blackDistances = [];
 
   for (let i = 0; i < balls.length - 1; i++) {
-    let ballDistance = Math.sqrt(
-      Math.pow(Math.abs(balls[i].distance[0] - jackXPosition), 2) +
-        Math.pow(Math.abs(balls[i].distance[1] - jackYPosition), 2)
+    let ballDistance = absoluteBallDistance(
+      balls[i].distance[0],
+      balls[i].distance[1],
+      jackXPosition,
+      jackYPosition
     );
+    // let ballDistance = Math.sqrt(
+    //   Math.pow(Math.abs(balls[i].distance[0] - jackXPosition), 2) +
+    //     Math.pow(Math.abs(balls[i].distance[1] - jackYPosition), 2)
+    // );
     if (balls[i].type === "black") {
       blackDistances.push(ballDistance);
     } else {
@@ -23,6 +29,13 @@ function boulesScore(balls) {
   } else {
     return "black scores 1";
   }
+}
+
+function absoluteBallDistance(x, y, jackXPosition, jackYPosition) {
+  return Math.sqrt(
+    Math.pow(Math.abs(x - jackXPosition), 2) +
+      Math.pow(Math.abs(y - jackYPosition), 2)
+  );
 }
 
 module.exports = boulesScore;
