@@ -18,4 +18,14 @@ describe("boulesScore", () => {
       ])
     ).toEqual("black scores 1");
   });
+
+  test("red scores 1", () => {
+    expect(
+      boulesScore([
+        { type: "black", distance: [70, 1] },
+        { type: "red", distance: [85, -1] },
+        { type: "jack", distance: [80, 0] },
+      ])
+    ).toEqual("red scores 1");
+  });
 });
