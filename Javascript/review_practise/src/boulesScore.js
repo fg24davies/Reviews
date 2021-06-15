@@ -11,24 +11,14 @@ function boulesScore(balls) {
       jackXPosition,
       jackYPosition
     );
-    // let ballDistance = Math.sqrt(
-    //   Math.pow(Math.abs(balls[i].distance[0] - jackXPosition), 2) +
-    //     Math.pow(Math.abs(balls[i].distance[1] - jackYPosition), 2)
-    // );
+
     if (balls[i].type === "black") {
       blackDistances.push(ballDistance);
     } else {
       redDistances.push(ballDistance);
     }
   }
-  console.log("black distances", blackDistances);
-  console.log("red distances", redDistances);
-
-  if (Math.min(...blackDistances) > Math.min(...redDistances)) {
-    return "red scores 1";
-  } else {
-    return "black scores 1";
-  }
+  return distanceComparer(blackDistances, redDistances);
 }
 
 function absoluteBallDistance(x, y, jackXPosition, jackYPosition) {
@@ -36,6 +26,28 @@ function absoluteBallDistance(x, y, jackXPosition, jackYPosition) {
     Math.pow(Math.abs(x - jackXPosition), 2) +
       Math.pow(Math.abs(y - jackYPosition), 2)
   );
+}
+
+function distanceComparer(blackBalls, redBalls) {
+  if (Math.min(...blackBalls) > Math.min(...redBalls)) {
+    return `red scores ${countsPoints(redBalls, blackBalls)}`;
+  } else {
+    return `black scores ${countsPoints(blackBalls, redBalls)}`;
+  }
+}
+
+function countsPoints(closestColourBalls, otherColourBalls) {
+  let ballsCloser = [];
+  for (let i = 0; i < closestColourBalls.length; i++) {
+    let count = 0;
+    for (let j = 0; j < otherColourBalls.length; j++) {
+      if (otherColourBalls[j] <= closestColourBalls[i]) {
+        count++;
+      }
+    }
+    ballsCloser.push(count);
+  }
+  return ballsCloser.filter((element) => element === 0).length;
 }
 
 module.exports = boulesScore;

@@ -274,6 +274,6 @@ The type will be "red", "black", or "jack". For all test cases, the jack will be
 
 | Input                                                                                                            | Output             |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [ { type: "black", distance: [70, 0]}, { type: "red", distance: [85, 0]}, { type: "jack", distance: [80, 0]}]    | "red scores 1"     |
+| [ { type: "red", distance: [85, 0]}, { type: "jack", distance: [80, 0]}]                                         | "red scores 1"     |
 | [ { type: "red", distance: [70, -1]}, { type: "black", distance: [85, -1]},{ type: "jack", distance: [80, -5]} ] | "black scores 1"   |
 | [ { type: "black", distance: [70, 0]}, { type: "red", distance: [90, 0]},{ type: "jack", distance: [80, 0]} ]    | "No points scored" |
