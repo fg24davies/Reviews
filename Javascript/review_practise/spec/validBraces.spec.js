@@ -15,4 +15,8 @@ describe("validBraces", () => {
   it("returns false for ()(", () => {
     expect(validBraces("()(")).toEqual(false);
   });
+
+  it("returns false for [", () => {
+    expect(validBraces("[")).toEqual(false);
+  });
 });

@@ -1,7 +1,5 @@
 function validBraces(string) {
-  console.log(string);
-
-  if (string.endsWith("(") || string.endsWith("{")) {
+  if (string.endsWith("(") || string.endsWith("{") || string.endsWith("[")) {
     return false;
   } else {
     return true;
