@@ -12,6 +12,7 @@ Words will be capitalised and spell checker preserve capitalisation
 Output will be the same string but if the word is spelt incorrectly tildas on each side ~ eg 'The fxo' --> 'The ~fxo~'
 Correct spelling will be compared to the client's own word bank (currently under construction)
 Compare to own small word bank
+Assumption - word not in the word bank is misspelt
 
 Example wordbank:
 ['the', 'fox', ... ]
