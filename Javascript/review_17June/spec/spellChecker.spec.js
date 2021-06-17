@@ -8,4 +8,8 @@ describe("spellChecker", () => {
   test("it returns 'fox' when passed 'fox'", () => {
     expect(spellChecker("fox")).toEqual("fox");
   });
+
+  test("it returns 'brown' when passed 'brown'", () => {
+    expect(spellChecker("brown")).toEqual("brown");
+  });
 });
