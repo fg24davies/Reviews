@@ -6,6 +6,8 @@ function spellChecker(sentence) {
       return sentence;
     }
   }
+  //console.log("word not in wordBank", sentence);
+  return `~${sentence}~`;
 }
 
 module.exports = spellChecker;

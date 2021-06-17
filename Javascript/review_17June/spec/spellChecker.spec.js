@@ -12,4 +12,8 @@ describe("spellChecker", () => {
   test("it returns 'brown' when passed 'brown'", () => {
     expect(spellChecker("brown")).toEqual("brown");
   });
+
+  test("it returns '~teh~' when passed 'teh'", () => {
+    expect(spellChecker("teh")).toEqual("~teh~");
+  });
 });
