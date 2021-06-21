@@ -1,5 +1,5 @@
-function digitalRoot() {
-  return 1;
+function digitalRoot(number) {
+  return number;
 }
 
 module.exports = digitalRoot;
