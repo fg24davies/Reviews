@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1624272947632" clover="3.2.0">
-  <project timestamp="1624272947633" name="All files">
-    <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7" elements="22" coveredelements="22" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+<coverage generated="1624273446037" clover="3.2.0">
+  <project timestamp="1624273446037" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="20" coveredelements="20" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="digitalRoot.js" path="/Users/floradavies/Projects/reviews/reviews/Javascript/review_practise/src/digitalRoot.js">
-      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
-      <line num="2" count="4" type="stmt"/>
-      <line num="3" count="5" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="8" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="11" count="5" type="stmt"/>
-      <line num="14" count="4" type="stmt"/>
-      <line num="15" count="5" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
-      <line num="20" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="24" count="4" type="stmt"/>
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <line num="2" count="5" type="stmt"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="16" type="stmt"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="10" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+      <line num="15" count="6" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="20" count="5" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="24" count="5" type="stmt"/>
       <line num="27" count="1" type="stmt"/>
     </file>
   </project>

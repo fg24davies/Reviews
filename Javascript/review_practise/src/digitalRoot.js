@@ -15,9 +15,9 @@ function digitalRoot(number) {
     return sum(toInt(toArray(number)));
   };
 
-  let result = findRoot(number);
+  let result = number;
 
-  if (result > 9) {
+  while (result > 9) {
     result = findRoot(result);
   }
 
