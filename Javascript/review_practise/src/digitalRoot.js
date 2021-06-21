@@ -1,11 +1,23 @@
 function digitalRoot(number) {
-  let digits = number.toString().split("");
-  let integers = digits.map((digit) => parseInt(digit));
+  const toArray = (number) => {
+    return number.toString().split("");
+  };
 
-  let sum = integers.reduce((a, b) => a + b);
-  console.log(integers);
-  console.log(sum);
-  return sum;
+  const toInt = (array) => {
+    return array.map((digit) => parseInt(digit));
+  };
+
+  const sum = (array) => {
+    return array.reduce((a, b) => a + b);
+  };
+
+  let result = sum(toInt(toArray(number)));
+
+  if (result > 9) {
+    result = sum(toInt(toArray(result)));
+  }
+
+  return result;
 }
 
 module.exports = digitalRoot;
