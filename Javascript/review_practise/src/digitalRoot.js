@@ -11,10 +11,14 @@ function digitalRoot(number) {
     return array.reduce((a, b) => a + b);
   };
 
-  let result = sum(toInt(toArray(number)));
+  const findRoot = (number) => {
+    return sum(toInt(toArray(number)));
+  };
+
+  let result = findRoot(number);
 
   if (result > 9) {
-    result = sum(toInt(toArray(result)));
+    result = findRoot(result);
   }
 
   return result;
