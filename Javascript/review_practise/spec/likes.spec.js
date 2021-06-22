@@ -12,4 +12,16 @@ describe("likes", () => {
   test("2 people like it", () => {
     expect(likes(["Flora", "Lily"])).toEqual("Flora and Lily like this");
   });
+
+  test("3 people like it", () => {
+    expect(likes(["Flora", "Lily", "Ella"])).toEqual(
+      "Flora, Lily and Ella like this"
+    );
+  });
+
+  test("more than 3 people like it", () => {
+    expect(likes(["Flora", "Lily", "Ella", "Lucy"])).toEqual(
+      "Flora, Lily and 2 others like this"
+    );
+  });
 });
