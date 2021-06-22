@@ -296,7 +296,9 @@ Input => Output
 "[(])" => False
 "[({})](]" => False
 
-####
+#### June 21st 6Kyu, practise with Stu on extraction and refactoring, 1 hour
+
+Digital Root finder
 
 1 ---> 1
 16 --> 1 + 6 = 7
@@ -305,3 +307,16 @@ Input => Output
 493193 --> 4 + 9 + 3 + 1 + 9 + 3 = 29 --> 2 + 9 = 11 --> 1 + 1 = 2
 
 input non negative integer
+
+### June 22nd 6kyu, JS
+
+Implement a function likes :: [String] -> String, which must take in input array, containing the names of people who like an item. It must return the display text as shown in the examples:
+
+likes [] -- must be "no one likes this"
+likes ["Peter"] -- must be "Peter likes this"
+likes ["Jacob", "Alex"] -- must be "Jacob and Alex like this"
+likes ["Max", "John", "Mark"] -- must be "Max, John and Mark like this"
+likes ["Alex", "Jacob", "Mark", "Max"] -- must be "Alex, Jacob and 2 others like this"
+
+array.length
+forEach
