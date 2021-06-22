@@ -8,4 +8,8 @@ describe("oddOneOut", () => {
   test("it returns the non-matching number in array of 3 numbers", () => {
     expect(oddOneOut([1, 1, 3])).toEqual(3);
   });
+
+  test("it returns the non-matching number in array of 3 numbers", () => {
+    expect(oddOneOut([3, 1, 1])).toEqual(3);
+  });
 });
