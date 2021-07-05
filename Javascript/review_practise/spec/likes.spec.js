@@ -20,8 +20,8 @@ describe("likes", () => {
   });
 
   test("more than 3 people like it", () => {
-    expect(likes(["Flora", "Lily", "Ella", "Lucy"])).toEqual(
-      "Flora, Lily and 2 others like this"
+    expect(likes(["Flora", "Lily", "Ella", "Lucy", "Jack"])).toEqual(
+      "Flora, Lily and 3 others like this"
     );
   });
 });

@@ -318,5 +318,31 @@ likes ["Jacob", "Alex"] -- must be "Jacob and Alex like this"
 likes ["Max", "John", "Mark"] -- must be "Max, John and Mark like this"
 likes ["Alex", "Jacob", "Mark", "Max"] -- must be "Alex, Jacob and 2 others like this"
 
-array.length
-forEach
+### Reflection
+
+Kept an eye on refactoring, used a switch statement instead of a long if else
+
+### July 5th, 5kyu, JS paired with Lou
+
+Go to Pete the Baker file for code (tested in Jasmine)
+
+### Reflection
+
+### July 5th, 5kyu
+
+Write out steps of algorithm (Lou did this well) - I thought it helped when trying to extract into different methods.
+
+The directions given to the man are, for example, the following (depending on the language):
+
+["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"].
+
+You can immediatly see that going "NORTH" and immediately "SOUTH" is not reasonable, better stay to the same place! So the task is to give to the man a simplified version of the plan. A better plan in this case is simply:
+
+["WEST"]
+
+| Input                                                        | Output    |
+| ------------------------------------------------------------ | --------- |
+| ["NORTH"]                                                    | ["NORTH"] |
+| ["NORTH", "SOUTH"]                                           | []        |
+| ["NORTH", "SOUTH", "WEST"]                                   | ["WEST"]  |
+| ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"] | ["WEST"]  |
