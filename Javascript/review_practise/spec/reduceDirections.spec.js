@@ -12,5 +12,6 @@ describe("reduceDirections", () => {
 
   test("it returns the one direction left over if the othes cancel eachother out ", () => {
     expect(reduceDirections(["SOUTH", "NORTH", "WEST"])).toEqual(["WEST"]);
+    expect(reduceDirections(["NORTH", "SOUTH", "WEST"])).toEqual(["WEST"]);
   });
 });
