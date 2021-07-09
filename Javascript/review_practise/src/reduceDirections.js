@@ -1,10 +1,5 @@
 const reduceDirections = (fullDirections) => {
-  if (fullDirections.length === 1) {
-    return fullDirections;
-  }
-  if (fullDirections[0] === "NORTH" && fullDirections[1] === "SOUTH") {
-    return [];
-  }
+  return fullDirections;
 };
 
 module.exports = reduceDirections;
