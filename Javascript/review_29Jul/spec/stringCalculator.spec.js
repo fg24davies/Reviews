@@ -9,6 +9,10 @@ describe("stringCalculator", () => {
     expect(stringCalculator("2")).toEqual(["2", 2]);
   });
 
+  it("receives '12' and returns 12 and '12'", () => {
+    expect(stringCalculator("12")).toEqual(["12", 12]);
+  });
+
   it("receives a 2 term sum, '1 + 1', and returns the result, 2, and '1 + 1'", () => {
     expect(stringCalculator("1 + 1")).toEqual(["1 + 1", 2]);
   });
