@@ -1,5 +1,6 @@
-const stringCalculator = () => {
-  return ["1", 1];
+const stringCalculator = (string) => {
+  result = parseInt(string);
+  return [string, result];
 };
 
 module.exports = stringCalculator;
