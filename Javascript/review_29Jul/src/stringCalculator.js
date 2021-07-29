@@ -1,14 +1,15 @@
 const stringCalculator = (string) => {
   sumArray = string.split(" ");
-  //console.log("string as array", sumArray);
-
-  result = 0;
-  for (let i = 0; i < sumArray.length; i += 2) {
-    console.log("string number", sumArray[i]);
-    result += parseInt(sumArray[i]);
+  result = parseInt(sumArray[0]);
+  for (let i = 0; i < sumArray.length; i++) {
+    console.log("result", result);
+    console.log("array element", sumArray[i]);
+    if (sumArray[i] === "+") {
+      result += parseInt(sumArray[i + 1]);
+    } else if (sumArray[i] === "-") {
+      result -= parseInt(sumArray[i + 1]);
+    }
   }
-
-  //result = parseInt(string[0]) + parseInt(string[4]);
   return [string, result];
 };
 

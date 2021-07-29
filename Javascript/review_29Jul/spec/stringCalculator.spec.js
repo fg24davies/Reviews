@@ -24,4 +24,8 @@ describe("stringCalculator", () => {
   it("receives a 3 term sum, '1 + 1 + 1', and returns the result, 3, and '1 + 1 + 1'", () => {
     expect(stringCalculator("1 + 1 + 1")).toEqual(["1 + 1 + 1", 3]);
   });
+
+  it("receives a 2 term subtraction, '2 - 1', and returns the result, 1, and '2 - 1'", () => {
+    expect(stringCalculator("2 - 1")).toEqual(["2 - 1", 1]);
+  });
 });
