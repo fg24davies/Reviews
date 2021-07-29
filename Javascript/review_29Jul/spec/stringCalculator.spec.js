@@ -9,11 +9,15 @@ describe("stringCalculator", () => {
     expect(stringCalculator("2")).toEqual(["2", 2]);
   });
 
-  it("receives a sum, '1 + 1', and returns the result, 2, and '1 + 1'", () => {
+  it("receives a 2 term sum, '1 + 1', and returns the result, 2, and '1 + 1'", () => {
     expect(stringCalculator("1 + 1")).toEqual(["1 + 1", 2]);
   });
 
-  it("receives a sum, '1 + 2', and returns the result, 3, and '1 + 2'", () => {
+  it("receives a 2 term sum, '1 + 2', and returns the result, 3, and '1 + 2'", () => {
     expect(stringCalculator("1 + 2")).toEqual(["1 + 2", 3]);
+  });
+
+  it("receives a 3 term sum, '1 + 1 + 1', and returns the result, 3, and '1 + 1 + 1'", () => {
+    expect(stringCalculator("1 + 1 + 1")).toEqual(["1 + 1 + 1", 3]);
   });
 });
