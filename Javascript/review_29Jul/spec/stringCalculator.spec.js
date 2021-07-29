@@ -12,4 +12,8 @@ describe("stringCalculator", () => {
   it("receives a sum, '1 + 1', and returns the result, 2, and '1 + 1'", () => {
     expect(stringCalculator("1 + 1")).toEqual(["1 + 1", 2]);
   });
+
+  it("receives a sum, '1 + 2', and returns the result, 3, and '1 + 2'", () => {
+    expect(stringCalculator("1 + 2")).toEqual(["1 + 2", 3]);
+  });
 });
