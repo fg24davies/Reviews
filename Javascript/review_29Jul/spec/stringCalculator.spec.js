@@ -1,11 +1,11 @@
 const stringCalculator = require("../src/stringCalculator");
 
 describe("stringCalculator", () => {
-  it("takes a single number as a string and returns the string and the value of the number", () => {
+  it("receives '1' and returns 1 and '1'", () => {
     expect(stringCalculator("1")).toEqual(["1", 1]);
   });
 
-  it("takes a single number as a string and returns the string and the value of the number", () => {
+  it("receives '2' and returns 2 and '2'", () => {
     expect(stringCalculator("2")).toEqual(["2", 2]);
   });
 });
